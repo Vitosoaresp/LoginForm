@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+  <title>Login Form</title>
+</head>
+<body>
+  <main>
+    <img src="./images/logo.svg" alt="logo" class="logo" />
+    <form class="container-form">
+      <div class="container">
+        <header class="header">
+          <div class="header-title">
+            <img src="./images/log-in.svg" />
+            <h2>Faça seu login</h2>
+          </div>
+          <div class="header-span">
+            <span>Entre com suas informações de cadastro.</span>
+          </div>
+        </header>
+        <label for="email" class="label label-email">E-mail</label>
+        <div class="email-div">
+          <img src="images/mail.svg" alt="icon e-mail" class="email-icon" />
+          <input type="email" name="email" placeholder="Digite seu e-mail" id="email">
+        </div>
+
+        <label for="password">Senha</label>
+        <div class="password-div">
+          <img src="images/lock.svg" alt="icon lock" class="password-icon" />
+          <input type="password" name="password" placeholder="Digite sua senha" id="password">
+          <img src="images/eye.svg" alt="icon eye" class="eyes-icon" />
+        </div>
+        <div class="checkbox-forgetpass">
+          <label for="remember">
+            <input type="checkbox" name="remember" id="remember" />
+            Lembre-me
+          </label>
+          <a href="" class="forget-password">Esqueci minha senha</a>
+        </div>
+        <button type="button">Entrar</button>
+        <div class="register-account">
+          <p>Não tem conta? <a href=""><strong>Registre-se</strong></a></p>
+        </div>
+      </div>
+    </form>
+  </main>
+  <aside>
+    <img src="./images/side-image.jpg" alt="imagem de um carro" />
+  </aside>
+  <script src="./script.js"></script>
+</body>
+</html>
